@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mapbox_flutter/mapbox_flutter.dart';
-import 'package:mapbox_gl/mapbox_gl.dart';
 import "package:latlong2/latlong.dart" as latLng;
 import 'package:flutter_map/flutter_map.dart';
 
@@ -24,7 +22,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: new AppBar(title: new Text('MapBox')),
+        appBar: new AppBar(title: new Text('SVCE Nav')),
         body: Stack(
           children: [
             FlutterMap(
