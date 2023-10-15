@@ -32,7 +32,7 @@ class _MyHomePageState extends State<MyHomePage> {
               initialZoom: 17.0),
               children: [
                 TileLayer(
-                    urlTemplate: "https://api.mapbox.com/styles/v1/sandy-parker/clmkof8hw01vn01r79wf332cu/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic2FuZHktcGFya2VyIiwiYSI6ImNsbWtvYnFrZjA0dnIyanFncTZsc3BwNmkifQ.giPjydmN8Iv6Gj_-zWJBEA",
+                    urlTemplate: "https://api.mapbox.com/styles/v1/sandy-parker/clnoh8q6a00bo01pg2jf2dyl3/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1Ijoic2FuZHktcGFya2VyIiwiYSI6ImNsbWtvYnFrZjA0dnIyanFncTZsc3BwNmkifQ.giPjydmN8Iv6Gj_-zWJBEA",
                     userAgentPackageName: 'com.example.svce_navi',
                     additionalOptions: {
                       'accessToken':
