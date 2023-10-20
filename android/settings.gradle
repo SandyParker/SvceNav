@@ -15,10 +15,10 @@ pluginManagement {
     }
 }
 
-dependencyResolutionManagement {
+/*dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
-        google()
+        //google()
         mavenCentral()
         maven {
             url 'https://api.mapbox.com/downloads/v2/releases/maven'
@@ -34,7 +34,7 @@ dependencyResolutionManagement {
             }
         }
     }
-}
+}*/
 
 include ":app"
 
